@@ -31,6 +31,7 @@ public class DetailsActivity extends AppCompatActivity {
             tvName.setText(name);
             image.setImageResource(image_id);
             presidentDetails.setText(details);
+            setTitle(name);
         }
     }
 }
